@@ -1,0 +1,55 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+  color: red; 
+}
+
+p{color: white;}
+
+
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color:blue;
+}
+
+.container {width: 800px; margin: auto; text-align: center;}
+
+.Banner {text-align: center; background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/wood.jpg');
+background-size: cover; background-position: center; padding: 80px}
+.Banner h1 {color: white; font-size: 45px; margin: 0;}
+.Banner h2 {color: white}
+
+.card-white {background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.4);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+  height: 250px;}
+
+ .card-white img{ width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;}
+
+.Cards {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px; margin-left: 100px}
+
+.button-red {background-color:black; padding: 10px 20px; display: inline-block; border border-radius: 10px;}
+
+.Footer p{color:white; text-align: center;}
+.Footer {background-color: red; text-align: center; padding: 24px 0px;}
